@@ -49,6 +49,26 @@ def lb_kg():
 def oz_g():
     print(mass2*28.35, "Grams")
 
+#variables from metrics to imperial (capacity)
+def l_gal():
+    print(cap1/0.264, "Galons")
+def l_qt():
+    print(cap1/1.0566, "Quarter")
+def ml_oz(]):
+    print(cap1*0.0352, "Ounces")
+
+#variables from imperial to metric (capacity)
+def gal_l():
+    print(cap2/4.54, "Liters")
+def qt_ml():
+    print(cap2*0.946, "Mililiters")
+def oz_ml():
+    print(cap2*0.295, "Mililiters")
+    
+#menu for Temperature = 4
+celsius=["'Celsius'"]
+fahrenheit=["'Fahrenheit'"]
+    
 #choose which what to convert
 print(menu)
 measure=int(input("Please select what you would like to convert by typing a number:\nLength:  1\nWeight:  2\nCapacity: 3\nTemp.: 4\n"))
